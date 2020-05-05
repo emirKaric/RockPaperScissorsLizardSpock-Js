@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Lizard Spock Game</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Rock Paper Scissors Lizard Spock</h1>
+    </header>
+    
+    <div class="score-board">
+        <div class="badge" id="user">user</div>
+        <div class="badge" id="comp">comp</div>
+        <span id="user-score">0</span>
+        <span>:</span>
+        <span id="comp-score">0</span> 
+    </div>
+    
+    <div class="result">
+        <p>Paper covers rock. You win!</p>
+    </div>
+
+    <div class="choices">
+        <div class="choice" id="rock">
+            <img src="./images/rock.svg" alt="rock" title="Rock">
+        </div>
+        <div class="choice" id="paper">
+            <img src="./images/paper.svg" alt="paper" title="Paper">
+        </div>
+        <div class="choice" id="scissors">
+            <img src="./images/scissors.svg" alt="scissors" title="Scissors">
+        </div>
+        <div class="choice" id="lizard">
+            <img src="./images/lizard.svg" alt="lizard" title="Lizard">
+        </div>
+        <div class="choice" id="spock">
+            <img src="./images/spock.svg" alt="spock" title="Spock">
+        </div>
+        <p id="action-message">Make your move!</p>
+    </div>
+
+    <p id="tbbt">Want to know more about game? <br><br> Watch <a href="https://www.youtube.com/watch?v=iSHPVCBsnLw" target="_blank">video</a>!</p>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
